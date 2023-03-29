@@ -13,5 +13,24 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyBUH-YW6c62UJU-GR-8ZrdLQU2r1tWsyFo",
+        authDomain: "carter-52101.firebaseapp.com",
+        projectId: "carter-52101",
+        storageBucket: "carter-52101.appspot.com",
+        messagingSenderId: "542712793168",
+        appId: "1:542712793168:web:88e8479e9b9557b84c6955"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+    </script>
   </body>
 </html>
